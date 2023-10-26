@@ -22,7 +22,7 @@
                 <ComboBoxItem>Женский</ComboBoxItem> 
             </ComboBox>
             <DatePicker x:Name="DoB" Cursor="Hand" materialDesign:HintAssist.Hint="Введите дату рождения" Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
-            <Button x:Name="reg" Content="Зарегестрироваться" HorizontalAlignment="Center" Margin="20"></Button>
+            <Button x:Name="reg" Click="reg_Click" Content="Зарегестрироваться" HorizontalAlignment="Center" Margin="20"></Button>
         </StackPanel>
     </Grid>
 </Page>

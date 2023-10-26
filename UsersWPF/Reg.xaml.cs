@@ -29,5 +29,10 @@ namespace UsersWPF
         {
 
         }
+
+        private void reg_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

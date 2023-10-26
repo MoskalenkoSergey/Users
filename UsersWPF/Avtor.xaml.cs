@@ -24,5 +24,15 @@ namespace UsersWPF
         {
             InitializeComponent();
         }
+
+        private void avtor_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void reg_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

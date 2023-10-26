@@ -14,8 +14,8 @@
         <StackPanel Width="350" HorizontalAlignment="Center" Margin="100">
             <TextBox x:Name="login" materialDesign:HintAssist.Hint="Введиите Логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
             <TextBox x:Name="password" materialDesign:HintAssist.Hint="Введиите Пароль" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-            <Button x:Name="avtor" Content="Войти" HorizontalAlignment="Center" Margin="0,20,0,10"></Button>
-            <Button x:Name="reg" Content="Зарегестрироваться" HorizontalAlignment="Center" ></Button>
+            <Button x:Name="avtor" Click="avtor_Click" Content="Войти" HorizontalAlignment="Center" Margin="0,20,0,10"></Button>
+            <Button x:Name="reg" Click="reg_Click" Content="Зарегестрироваться" HorizontalAlignment="Center" ></Button>
         </StackPanel>
     </Grid>
 </Page>
